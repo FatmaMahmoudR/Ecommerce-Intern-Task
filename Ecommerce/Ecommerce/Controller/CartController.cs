@@ -51,22 +51,22 @@ namespace Ecommerce.Controller
             var prod = _stock.FirstOrDefault(p => p.Name == productName);
             if (prod == null)
             {
-                Console.WriteLine($"[X] Product '{productName}' not found.");
+                Console.WriteLine($"[X] Product '{productName}' not found");
                 return;
             }
             if (qty <= 0)
             {
-                Console.WriteLine("[X] Quantity must be at least 1.");
+                Console.WriteLine("[X] Quantity must be at least 1");
                 return;
             }
             if (prod.Quantity < qty)
             {
-                Console.WriteLine($"[X] Only {prod.Quantity} '{prod.Name}' in stock.");
+                Console.WriteLine($"[X] Only {prod.Quantity} '{prod.Name}' in stock");
                 return;
             }
             if (prod is IExpirable exp && exp.IsExpired)
             {
-                Console.WriteLine($"[X] '{prod.Name}' is expired.");
+                Console.WriteLine($"[X] '{prod.Name}' is expired");
                 return;
             }
 
@@ -81,12 +81,12 @@ namespace Ecommerce.Controller
         {
             if (!cart.Products.Any())
             {
-                Console.WriteLine("[X] Cart is empty.");
+                Console.WriteLine("[X] Cart is empty");
                 return;
             }
             if (cart.Products.OfType<IExpirable>().Any(e => e.IsExpired))
             {
-                Console.WriteLine("[X] Cart contains expired item(s).");
+                Console.WriteLine("[X] Cart contains expired items");
                 return;
             }
 
@@ -111,7 +111,7 @@ namespace Ecommerce.Controller
 
             if (total > customer.Balance)
             {
-                Console.WriteLine("[X] Insufficient balance.");
+                Console.WriteLine("[X] Not enough balance");
                 return;
             }
 
@@ -131,8 +131,10 @@ namespace Ecommerce.Controller
             }
 
             Console.WriteLine("** Checkout receipt **");
+
             foreach (var (n, q, t) in receipt)
                 Console.WriteLine($"{q}x {n} {t:0.##}");
+
             Console.WriteLine("----------------------");
             Console.WriteLine($"Subtotal {subtotal:0.##}");
             Console.WriteLine($"Shipping {fee:0.##}");

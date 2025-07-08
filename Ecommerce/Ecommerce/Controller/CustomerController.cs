@@ -15,7 +15,7 @@ namespace Ecommerce.Controller
         {
             if (customer == null)
             {
-                Console.WriteLine("Customer not found.");
+                Console.WriteLine("Customer not found");
                 return;
             }
             Console.WriteLine($"Customer ID: {customer.Id} | Name: {customer.Name} | Balance: {customer.Balance} ");            
