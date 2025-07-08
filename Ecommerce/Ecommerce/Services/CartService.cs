@@ -44,11 +44,12 @@ namespace Ecommerce.Services
         }
 
 
-        public (bool, string, double, double, double) Checkout(Customer customer)
+        public (bool, string, double, double, double, IEnumerable<Product>) Checkout(Customer customer)
         {
             if (!_cart.Products.Any())
-                return (false, "[X] Cart is empty", 0, 0, 0);
+                return (false, "[X] Cart is empty", 0, 0, 0, Enumerable.Empty<Product>());
 
+            var items = _cart.Products.ToList();
             var sub    = _cart.Products.Sum(p => p.Price);
 
             var weight = _cart.Products.OfType<IShippable>().Sum(p => p.Weight);
@@ -58,12 +59,12 @@ namespace Ecommerce.Services
             var total  = sub + fee;
 
             if (total > customer.Balance)
-                return (false, $"[X] low balance: {customer.Balance}$", sub, fee, total);
+                return (false, $"[X] low balance: {customer.Balance}$", sub, fee, total, items);
 
             customer.Balance -= total;
             _cart.Products.Clear();
 
-            return (true, "Checkout successful", sub, fee, total);
+            return (true, "Checkout successful", sub, fee, total,items);
         }
 
 

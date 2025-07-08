@@ -36,9 +36,9 @@ namespace Ecommerce
             // Add products to cart
             var cartController = provider.GetRequiredService<CartController>();
             cartController.Add("Cheese", 2);
-            cartController.Add("TV", 5);
-            cartController.Add("Biscuits", 5);
-            cartController.Add("Scratch Card", 5);
+            cartController.Add("TV", 1);
+            cartController.Add("Biscuits", 1);
+            cartController.Add("Scratch Card", 1);
             Console.WriteLine();
 
 

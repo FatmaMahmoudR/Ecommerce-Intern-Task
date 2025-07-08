@@ -25,8 +25,7 @@ namespace Ecommerce.Controller
 
         public void Checkout(Customer customer)
         {
-            var (ok, msg, sub, fee, total) = _service.Checkout(customer);
-            var items = _service.GetAllProducts();
+            var (ok, msg, sub, fee, total, items) = _service.Checkout(customer);
 
             _view.DisplayShipmentNotice(items);
             _view.DisplayReceipt(ok, msg, sub, fee, total);

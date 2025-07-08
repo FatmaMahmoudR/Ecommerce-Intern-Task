@@ -12,7 +12,7 @@ namespace Ecommerce.Services.Interfaces
         (bool ok, string msg) AddToCart(string productName, int quantity);
 
 
-        (bool ok, string msg, double subtotal, double shippingFee, double total) Checkout(Customer customer);
+        (bool ok, string msg, double subtotal, double shippingFee, double total, IEnumerable<Product> Items) Checkout(Customer customer);
 
 
         IEnumerable<Product> GetAllProducts();
