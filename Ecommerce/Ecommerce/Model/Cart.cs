@@ -8,7 +8,7 @@ namespace Ecommerce.Model
 {
     internal class Cart
     {
-        public int id { get; set; }
+        public int CustomerId { get; set; }
         private List<Product> _products = new List<Product>();
 
 

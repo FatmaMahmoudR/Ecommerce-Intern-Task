@@ -8,7 +8,7 @@ namespace Ecommerce.Services
 {
     internal class ShippingService
     {
-        public decimal ShippingFee(double totalWeight) => (decimal)totalWeight * 2.5m;
+        public decimal ShippingFee(double totalWeight) => (decimal)totalWeight * 20;
 
     }
 }

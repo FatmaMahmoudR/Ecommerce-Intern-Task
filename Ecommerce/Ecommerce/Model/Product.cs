@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Ecommerce.Model
 {
-    internal abstract class Product
+    internal class Product
     {
         private string _name;
         private decimal _price;

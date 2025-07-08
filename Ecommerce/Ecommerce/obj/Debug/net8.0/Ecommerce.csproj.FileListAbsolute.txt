@@ -1,0 +1,15 @@
+E:\GIT\Fawry-Intern-Task\Ecommerce\Ecommerce\bin\Debug\net8.0\Ecommerce.exe
+E:\GIT\Fawry-Intern-Task\Ecommerce\Ecommerce\bin\Debug\net8.0\Ecommerce.deps.json
+E:\GIT\Fawry-Intern-Task\Ecommerce\Ecommerce\bin\Debug\net8.0\Ecommerce.runtimeconfig.json
+E:\GIT\Fawry-Intern-Task\Ecommerce\Ecommerce\bin\Debug\net8.0\Ecommerce.dll
+E:\GIT\Fawry-Intern-Task\Ecommerce\Ecommerce\bin\Debug\net8.0\Ecommerce.pdb
+E:\GIT\Fawry-Intern-Task\Ecommerce\Ecommerce\obj\Debug\net8.0\Ecommerce.GeneratedMSBuildEditorConfig.editorconfig
+E:\GIT\Fawry-Intern-Task\Ecommerce\Ecommerce\obj\Debug\net8.0\Ecommerce.AssemblyInfoInputs.cache
+E:\GIT\Fawry-Intern-Task\Ecommerce\Ecommerce\obj\Debug\net8.0\Ecommerce.AssemblyInfo.cs
+E:\GIT\Fawry-Intern-Task\Ecommerce\Ecommerce\obj\Debug\net8.0\Ecommerce.csproj.CoreCompileInputs.cache
+E:\GIT\Fawry-Intern-Task\Ecommerce\Ecommerce\obj\Debug\net8.0\Ecommerce.sourcelink.json
+E:\GIT\Fawry-Intern-Task\Ecommerce\Ecommerce\obj\Debug\net8.0\Ecommerce.dll
+E:\GIT\Fawry-Intern-Task\Ecommerce\Ecommerce\obj\Debug\net8.0\refint\Ecommerce.dll
+E:\GIT\Fawry-Intern-Task\Ecommerce\Ecommerce\obj\Debug\net8.0\Ecommerce.pdb
+E:\GIT\Fawry-Intern-Task\Ecommerce\Ecommerce\obj\Debug\net8.0\Ecommerce.genruntimeconfig.cache
+E:\GIT\Fawry-Intern-Task\Ecommerce\Ecommerce\obj\Debug\net8.0\ref\Ecommerce.dll
