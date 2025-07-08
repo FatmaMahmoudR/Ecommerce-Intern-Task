@@ -28,6 +28,6 @@ You can list products, add items to your cart, and perform checkout, with model-
 
 <br/><br/>
 
-| <img src="https://github.com/user-attachments/assets/05bb72d0-60b0-4688-a2ef-59fb742cc0e1" width="800" alt="Checkout Success" /> | <img src="https://github.com/user-attachments/assets/50aa3ede-d489-4dee-a022-9222d3f79e3c" width="800" alt="Checkout Failure" /> |
+| <img src="https://github.com/user-attachments/assets/3fc9ebe7-6530-4892-8cac-6a8234f55eeb" width="800" alt="Checkout Success" /> | <img src="https://github.com/user-attachments/assets/50aa3ede-d489-4dee-a022-9222d3f79e3c" width="800" alt="Checkout Failure" /> |
 |:---:|:---:|
 | **Checkout Success** | **Checkout Failure** |
