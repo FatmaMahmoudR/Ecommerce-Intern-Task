@@ -11,7 +11,7 @@ namespace Ecommerce.Model
         public int Id { get; set; }
 
         private string _name;
-        private decimal _balance;
+        private double _balance;
         public string Name
         {
             get => _name;
@@ -24,12 +24,12 @@ namespace Ecommerce.Model
             }
         }
 
-        public decimal Balance
+        public double Balance
         {
             get => _balance;
             set
             {
-                if (value < 0m)
+                if (value < 0)
                     Console.WriteLine("balance cannot be negative");
                 else
                     _balance = value;

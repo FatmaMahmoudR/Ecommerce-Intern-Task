@@ -9,7 +9,7 @@ namespace Ecommerce.Model
     internal class Product
     {
         private string _name;
-        private decimal _price;
+        private double _price;
         private int _quantity;
 
         public string Name
@@ -23,12 +23,12 @@ namespace Ecommerce.Model
             }
         }
 
-        public decimal Price
+        public double Price
         {
             get => _price;
             set
             {
-                if (value < 0m)
+                if (value < 0)
                     Console.Write("Price cannot be negative");
                 else _price = value;
             }
@@ -45,7 +45,7 @@ namespace Ecommerce.Model
             }
         }
 
-        public Product(string name, decimal price, int quantity)
+        public Product(string name, double price, int quantity)
         {
             Name = name;
             Price = price;

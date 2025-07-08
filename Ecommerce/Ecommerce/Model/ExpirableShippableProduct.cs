@@ -35,7 +35,7 @@ namespace Ecommerce.Model
             }
         }
 
-        public ExpirableShippableProduct(string name,decimal price,int quantity,DateTime expirationDate,double weight) : base(name, price, quantity)
+        public ExpirableShippableProduct(string name,double price,int quantity,DateTime expirationDate,double weight) : base(name, price, quantity)
         {
             ExpirationDate = expirationDate;
             Weight = weight;

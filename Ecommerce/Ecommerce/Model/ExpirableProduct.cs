@@ -23,7 +23,7 @@ namespace Ecommerce.Model
 
         public bool IsExpired => DateTime.Today > ExpirationDate;
 
-        public ExpirableProduct(string name,decimal price,int quantity,DateTime expirationDate) : base(name, price, quantity)
+        public ExpirableProduct(string name,double price,int quantity,DateTime expirationDate) : base(name, price, quantity)
         {
             ExpirationDate = expirationDate;
         }

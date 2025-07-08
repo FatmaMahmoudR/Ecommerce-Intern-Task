@@ -22,7 +22,7 @@ namespace Ecommerce.Model
         }
         string IShippable.Name => Name;
 
-        public ShippableProduct(string name,decimal price,int quantity,double weight) : base(name, price, quantity)
+        public ShippableProduct(string name,double price,int quantity,double weight) : base(name, price, quantity)
         {
             Weight = weight;
         }

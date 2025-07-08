@@ -3,32 +3,52 @@
   "WorkspaceRootPath": "E:\\GIT\\Fawry-Intern-Task\\Ecommerce\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{E3CB4C73-1893-44C7-B868-61DF61EDC785}|Ecommerce\\Ecommerce.csproj|e:\\git\\fawry-intern-task\\ecommerce\\ecommerce\\view\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E3CB4C73-1893-44C7-B868-61DF61EDC785}|Ecommerce\\Ecommerce.csproj|solutionrelative:ecommerce\\view\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{E3CB4C73-1893-44C7-B868-61DF61EDC785}|Ecommerce\\Ecommerce.csproj|e:\\git\\fawry-intern-task\\ecommerce\\ecommerce\\view\\cartview.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E3CB4C73-1893-44C7-B868-61DF61EDC785}|Ecommerce\\Ecommerce.csproj|solutionrelative:ecommerce\\view\\cartview.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E3CB4C73-1893-44C7-B868-61DF61EDC785}|Ecommerce\\Ecommerce.csproj|e:\\git\\fawry-intern-task\\ecommerce\\ecommerce\\controller\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E3CB4C73-1893-44C7-B868-61DF61EDC785}|Ecommerce\\Ecommerce.csproj|solutionrelative:ecommerce\\controller\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{E3CB4C73-1893-44C7-B868-61DF61EDC785}|Ecommerce\\Ecommerce.csproj|e:\\git\\fawry-intern-task\\ecommerce\\ecommerce\\view\\interfaces\\icartview.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E3CB4C73-1893-44C7-B868-61DF61EDC785}|Ecommerce\\Ecommerce.csproj|solutionrelative:ecommerce\\view\\interfaces\\icartview.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E3CB4C73-1893-44C7-B868-61DF61EDC785}|Ecommerce\\Ecommerce.csproj|e:\\git\\fawry-intern-task\\ecommerce\\ecommerce\\controller\\customercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E3CB4C73-1893-44C7-B868-61DF61EDC785}|Ecommerce\\Ecommerce.csproj|solutionrelative:ecommerce\\controller\\customercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{E3CB4C73-1893-44C7-B868-61DF61EDC785}|Ecommerce\\Ecommerce.csproj|e:\\git\\fawry-intern-task\\ecommerce\\ecommerce\\view\\productview.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E3CB4C73-1893-44C7-B868-61DF61EDC785}|Ecommerce\\Ecommerce.csproj|solutionrelative:ecommerce\\view\\productview.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E3CB4C73-1893-44C7-B868-61DF61EDC785}|Ecommerce\\Ecommerce.csproj|e:\\git\\fawry-intern-task\\ecommerce\\ecommerce\\services\\shippingservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E3CB4C73-1893-44C7-B868-61DF61EDC785}|Ecommerce\\Ecommerce.csproj|solutionrelative:ecommerce\\services\\shippingservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{E3CB4C73-1893-44C7-B868-61DF61EDC785}|Ecommerce\\Ecommerce.csproj|e:\\git\\fawry-intern-task\\ecommerce\\ecommerce\\view\\interfaces\\iproductview.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E3CB4C73-1893-44C7-B868-61DF61EDC785}|Ecommerce\\Ecommerce.csproj|solutionrelative:ecommerce\\view\\interfaces\\iproductview.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E3CB4C73-1893-44C7-B868-61DF61EDC785}|Ecommerce\\Ecommerce.csproj|e:\\git\\fawry-intern-task\\ecommerce\\ecommerce\\services\\cartservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E3CB4C73-1893-44C7-B868-61DF61EDC785}|Ecommerce\\Ecommerce.csproj|solutionrelative:ecommerce\\services\\cartservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{E3CB4C73-1893-44C7-B868-61DF61EDC785}|Ecommerce\\Ecommerce.csproj|e:\\git\\fawry-intern-task\\ecommerce\\ecommerce\\controller\\cartcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{E3CB4C73-1893-44C7-B868-61DF61EDC785}|Ecommerce\\Ecommerce.csproj|solutionrelative:ecommerce\\controller\\cartcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E3CB4C73-1893-44C7-B868-61DF61EDC785}|Ecommerce\\Ecommerce.csproj|e:\\git\\fawry-intern-task\\ecommerce\\ecommerce\\model\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E3CB4C73-1893-44C7-B868-61DF61EDC785}|Ecommerce\\Ecommerce.csproj|solutionrelative:ecommerce\\model\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{E3CB4C73-1893-44C7-B868-61DF61EDC785}|Ecommerce\\Ecommerce.csproj|e:\\git\\fawry-intern-task\\ecommerce\\ecommerce\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E3CB4C73-1893-44C7-B868-61DF61EDC785}|Ecommerce\\Ecommerce.csproj|solutionrelative:ecommerce\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E3CB4C73-1893-44C7-B868-61DF61EDC785}|Ecommerce\\Ecommerce.csproj|e:\\git\\fawry-intern-task\\ecommerce\\ecommerce\\model\\customer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E3CB4C73-1893-44C7-B868-61DF61EDC785}|Ecommerce\\Ecommerce.csproj|solutionrelative:ecommerce\\model\\customer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{E3CB4C73-1893-44C7-B868-61DF61EDC785}|Ecommerce\\Ecommerce.csproj|e:\\git\\fawry-intern-task\\ecommerce\\ecommerce\\model\\expirableproduct.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E3CB4C73-1893-44C7-B868-61DF61EDC785}|Ecommerce\\Ecommerce.csproj|solutionrelative:ecommerce\\model\\expirableproduct.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E3CB4C73-1893-44C7-B868-61DF61EDC785}|Ecommerce\\Ecommerce.csproj|e:\\git\\fawry-intern-task\\ecommerce\\ecommerce\\services\\interfaces\\icartservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E3CB4C73-1893-44C7-B868-61DF61EDC785}|Ecommerce\\Ecommerce.csproj|solutionrelative:ecommerce\\services\\interfaces\\icartservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E3CB4C73-1893-44C7-B868-61DF61EDC785}|Ecommerce\\Ecommerce.csproj|e:\\git\\fawry-intern-task\\ecommerce\\ecommerce\\services\\interfaces\\ishippingservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E3CB4C73-1893-44C7-B868-61DF61EDC785}|Ecommerce\\Ecommerce.csproj|solutionrelative:ecommerce\\services\\interfaces\\ishippingservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E3CB4C73-1893-44C7-B868-61DF61EDC785}|Ecommerce\\Ecommerce.csproj|e:\\git\\fawry-intern-task\\ecommerce\\ecommerce\\services\\productservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E3CB4C73-1893-44C7-B868-61DF61EDC785}|Ecommerce\\Ecommerce.csproj|solutionrelative:ecommerce\\services\\productservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E3CB4C73-1893-44C7-B868-61DF61EDC785}|Ecommerce\\Ecommerce.csproj|e:\\git\\fawry-intern-task\\ecommerce\\ecommerce\\services\\interfaces\\iproductservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E3CB4C73-1893-44C7-B868-61DF61EDC785}|Ecommerce\\Ecommerce.csproj|solutionrelative:ecommerce\\services\\interfaces\\iproductservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{E3CB4C73-1893-44C7-B868-61DF61EDC785}|Ecommerce\\Ecommerce.csproj|e:\\git\\fawry-intern-task\\ecommerce\\ecommerce\\model\\ishippable.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -46,7 +66,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 8,
+          "SelectedChildIndex": 6,
           "Children": [
             {
               "$type": "Bookmark",
@@ -66,32 +86,163 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "CustomerController.cs",
-              "DocumentMoniker": "E:\\GIT\\Fawry-Intern-Task\\Ecommerce\\Ecommerce\\Controller\\CustomerController.cs",
-              "RelativeDocumentMoniker": "Ecommerce\\Controller\\CustomerController.cs",
-              "ToolTip": "E:\\GIT\\Fawry-Intern-Task\\Ecommerce\\Ecommerce\\Controller\\CustomerController.cs",
-              "RelativeToolTip": "Ecommerce\\Controller\\CustomerController.cs",
-              "ViewState": "AgIAAAUAAAAAAAAAAAAAABEAAAA1AAAAAAAAAA==",
+              "DocumentIndex": 4,
+              "Title": "CartService.cs",
+              "DocumentMoniker": "E:\\GIT\\Fawry-Intern-Task\\Ecommerce\\Ecommerce\\Services\\CartService.cs",
+              "RelativeDocumentMoniker": "Ecommerce\\Services\\CartService.cs",
+              "ToolTip": "E:\\GIT\\Fawry-Intern-Task\\Ecommerce\\Ecommerce\\Services\\CartService.cs",
+              "RelativeToolTip": "Ecommerce\\Services\\CartService.cs",
+              "ViewState": "AgIAABIAAAAAAAAAAAAqwEMAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-07T13:57:11.273Z",
+              "WhenOpened": "2025-07-08T19:50:41.37Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ICartView.cs",
+              "DocumentMoniker": "E:\\GIT\\Fawry-Intern-Task\\Ecommerce\\Ecommerce\\View\\Interfaces\\ICartView.cs",
+              "RelativeDocumentMoniker": "Ecommerce\\View\\Interfaces\\ICartView.cs",
+              "ToolTip": "E:\\GIT\\Fawry-Intern-Task\\Ecommerce\\Ecommerce\\View\\Interfaces\\ICartView.cs",
+              "RelativeToolTip": "Ecommerce\\View\\Interfaces\\ICartView.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-08T19:52:17.468Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "CartView.cs",
+              "DocumentMoniker": "E:\\GIT\\Fawry-Intern-Task\\Ecommerce\\Ecommerce\\View\\CartView.cs",
+              "RelativeDocumentMoniker": "Ecommerce\\View\\CartView.cs",
+              "ToolTip": "E:\\GIT\\Fawry-Intern-Task\\Ecommerce\\Ecommerce\\View\\CartView.cs",
+              "RelativeToolTip": "Ecommerce\\View\\CartView.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-08T19:51:42.736Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "IProductView.cs",
+              "DocumentMoniker": "E:\\GIT\\Fawry-Intern-Task\\Ecommerce\\Ecommerce\\View\\Interfaces\\IProductView.cs",
+              "RelativeDocumentMoniker": "Ecommerce\\View\\Interfaces\\IProductView.cs",
+              "ToolTip": "E:\\GIT\\Fawry-Intern-Task\\Ecommerce\\Ecommerce\\View\\Interfaces\\IProductView.cs",
+              "RelativeToolTip": "Ecommerce\\View\\Interfaces\\IProductView.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAXAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-08T19:52:17.689Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ProductView.cs",
+              "DocumentMoniker": "E:\\GIT\\Fawry-Intern-Task\\Ecommerce\\Ecommerce\\View\\ProductView.cs",
+              "RelativeDocumentMoniker": "Ecommerce\\View\\ProductView.cs",
+              "ToolTip": "E:\\GIT\\Fawry-Intern-Task\\Ecommerce\\Ecommerce\\View\\ProductView.cs",
+              "RelativeToolTip": "Ecommerce\\View\\ProductView.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-08T19:51:42.939Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "CartController.cs",
+              "DocumentMoniker": "E:\\GIT\\Fawry-Intern-Task\\Ecommerce\\Ecommerce\\Controller\\CartController.cs",
+              "RelativeDocumentMoniker": "Ecommerce\\Controller\\CartController.cs",
+              "ToolTip": "E:\\GIT\\Fawry-Intern-Task\\Ecommerce\\Ecommerce\\Controller\\CartController.cs",
+              "RelativeToolTip": "Ecommerce\\Controller\\CartController.cs",
+              "ViewState": "AgIAAFYAAAAAAAAAAAAewGIAAAAUAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-06T22:51:07.669Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Program.cs",
+              "DocumentMoniker": "E:\\GIT\\Fawry-Intern-Task\\Ecommerce\\Ecommerce\\Program.cs",
+              "RelativeDocumentMoniker": "Ecommerce\\Program.cs",
+              "ToolTip": "E:\\GIT\\Fawry-Intern-Task\\Ecommerce\\Ecommerce\\Program.cs",
+              "RelativeToolTip": "Ecommerce\\Program.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAuwCoAAAAwAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-06T19:13:56.734Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 7,
-              "Title": "IShippable.cs",
-              "DocumentMoniker": "E:\\GIT\\Fawry-Intern-Task\\Ecommerce\\Ecommerce\\Model\\IShippable.cs",
-              "RelativeDocumentMoniker": "Ecommerce\\Model\\IShippable.cs",
-              "ToolTip": "E:\\GIT\\Fawry-Intern-Task\\Ecommerce\\Ecommerce\\Model\\IShippable.cs",
-              "RelativeToolTip": "Ecommerce\\Model\\IShippable.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
+              "Title": "ExpirableProduct.cs",
+              "DocumentMoniker": "E:\\GIT\\Fawry-Intern-Task\\Ecommerce\\Ecommerce\\Model\\ExpirableProduct.cs",
+              "RelativeDocumentMoniker": "Ecommerce\\Model\\ExpirableProduct.cs",
+              "ToolTip": "E:\\GIT\\Fawry-Intern-Task\\Ecommerce\\Ecommerce\\Model\\ExpirableProduct.cs",
+              "RelativeToolTip": "Ecommerce\\Model\\ExpirableProduct.cs",
+              "ViewState": "AgIAABkAAAAAAAAAAAAuwBkAAAAyAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-06T21:47:28.345Z"
+              "WhenOpened": "2025-07-08T20:27:06.023Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 8,
+              "Title": "ICartService.cs",
+              "DocumentMoniker": "E:\\GIT\\Fawry-Intern-Task\\Ecommerce\\Ecommerce\\Services\\Interfaces\\ICartService.cs",
+              "RelativeDocumentMoniker": "Ecommerce\\Services\\Interfaces\\ICartService.cs",
+              "ToolTip": "E:\\GIT\\Fawry-Intern-Task\\Ecommerce\\Ecommerce\\Services\\Interfaces\\ICartService.cs",
+              "RelativeToolTip": "Ecommerce\\Services\\Interfaces\\ICartService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-08T20:09:46.892Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "IShippingService.cs",
+              "DocumentMoniker": "E:\\GIT\\Fawry-Intern-Task\\Ecommerce\\Ecommerce\\Services\\Interfaces\\IShippingService.cs",
+              "RelativeDocumentMoniker": "Ecommerce\\Services\\Interfaces\\IShippingService.cs",
+              "ToolTip": "E:\\GIT\\Fawry-Intern-Task\\Ecommerce\\Ecommerce\\Services\\Interfaces\\IShippingService.cs",
+              "RelativeToolTip": "Ecommerce\\Services\\Interfaces\\IShippingService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-08T20:25:26.07Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "ProductService.cs",
+              "DocumentMoniker": "E:\\GIT\\Fawry-Intern-Task\\Ecommerce\\Ecommerce\\Services\\ProductService.cs",
+              "RelativeDocumentMoniker": "Ecommerce\\Services\\ProductService.cs",
+              "ToolTip": "E:\\GIT\\Fawry-Intern-Task\\Ecommerce\\Ecommerce\\Services\\ProductService.cs",
+              "RelativeToolTip": "Ecommerce\\Services\\ProductService.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAABcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-08T19:50:41.571Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "IProductService.cs",
+              "DocumentMoniker": "E:\\GIT\\Fawry-Intern-Task\\Ecommerce\\Ecommerce\\Services\\Interfaces\\IProductService.cs",
+              "RelativeDocumentMoniker": "Ecommerce\\Services\\Interfaces\\IProductService.cs",
+              "ToolTip": "E:\\GIT\\Fawry-Intern-Task\\Ecommerce\\Ecommerce\\Services\\Interfaces\\IProductService.cs",
+              "RelativeToolTip": "Ecommerce\\Services\\Interfaces\\IProductService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAUAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-08T19:49:56.799Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
               "Title": "Cart.cs",
               "DocumentMoniker": "E:\\GIT\\Fawry-Intern-Task\\Ecommerce\\Ecommerce\\Model\\Cart.cs",
               "RelativeDocumentMoniker": "Ecommerce\\Model\\Cart.cs",
@@ -103,80 +254,15 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "ProductController.cs",
-              "DocumentMoniker": "E:\\GIT\\Fawry-Intern-Task\\Ecommerce\\Ecommerce\\Controller\\ProductController.cs",
-              "RelativeDocumentMoniker": "Ecommerce\\Controller\\ProductController.cs",
-              "ToolTip": "E:\\GIT\\Fawry-Intern-Task\\Ecommerce\\Ecommerce\\Controller\\ProductController.cs",
-              "RelativeToolTip": "Ecommerce\\Controller\\ProductController.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAmwBIAAAAbAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-08T00:36:50.147Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Program.cs",
-              "DocumentMoniker": "E:\\GIT\\Fawry-Intern-Task\\Ecommerce\\Ecommerce\\View\\Program.cs",
-              "RelativeDocumentMoniker": "Ecommerce\\View\\Program.cs",
-              "ToolTip": "E:\\GIT\\Fawry-Intern-Task\\Ecommerce\\Ecommerce\\View\\Program.cs*",
-              "RelativeToolTip": "Ecommerce\\View\\Program.cs*",
-              "ViewState": "AgIAABcAAAAAAAAAAAAUwCkAAAA4AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-06T19:13:56.734Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "ShippingService.cs",
-              "DocumentMoniker": "E:\\GIT\\Fawry-Intern-Task\\Ecommerce\\Ecommerce\\Services\\ShippingService.cs",
-              "RelativeDocumentMoniker": "Ecommerce\\Services\\ShippingService.cs",
-              "ToolTip": "E:\\GIT\\Fawry-Intern-Task\\Ecommerce\\Ecommerce\\Services\\ShippingService.cs",
-              "RelativeToolTip": "Ecommerce\\Services\\ShippingService.cs",
+              "DocumentIndex": 12,
+              "Title": "IShippable.cs",
+              "DocumentMoniker": "E:\\GIT\\Fawry-Intern-Task\\Ecommerce\\Ecommerce\\Model\\IShippable.cs",
+              "RelativeDocumentMoniker": "Ecommerce\\Model\\IShippable.cs",
+              "ToolTip": "E:\\GIT\\Fawry-Intern-Task\\Ecommerce\\Ecommerce\\Model\\IShippable.cs",
+              "RelativeToolTip": "Ecommerce\\Model\\IShippable.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-06T23:00:18.087Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "CartController.cs",
-              "DocumentMoniker": "E:\\GIT\\Fawry-Intern-Task\\Ecommerce\\Ecommerce\\Controller\\CartController.cs",
-              "RelativeDocumentMoniker": "Ecommerce\\Controller\\CartController.cs",
-              "ToolTip": "E:\\GIT\\Fawry-Intern-Task\\Ecommerce\\Ecommerce\\Controller\\CartController.cs",
-              "RelativeToolTip": "Ecommerce\\Controller\\CartController.cs",
-              "ViewState": "AgIAAEsAAAAAAAAAAAAQwIoAAAA7AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-06T22:51:07.669Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "Customer.cs",
-              "DocumentMoniker": "E:\\GIT\\Fawry-Intern-Task\\Ecommerce\\Ecommerce\\Model\\Customer.cs",
-              "RelativeDocumentMoniker": "Ecommerce\\Model\\Customer.cs",
-              "ToolTip": "E:\\GIT\\Fawry-Intern-Task\\Ecommerce\\Ecommerce\\Model\\Customer.cs",
-              "RelativeToolTip": "Ecommerce\\Model\\Customer.cs",
-              "ViewState": "AgIAAAgAAAAAAAAAAAAxwAkAAAAFAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-07T14:01:06.077Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "Product.cs",
-              "DocumentMoniker": "E:\\GIT\\Fawry-Intern-Task\\Ecommerce\\Ecommerce\\Model\\Product.cs",
-              "RelativeDocumentMoniker": "Ecommerce\\Model\\Product.cs",
-              "ToolTip": "E:\\GIT\\Fawry-Intern-Task\\Ecommerce\\Ecommerce\\Model\\Product.cs",
-              "RelativeToolTip": "Ecommerce\\Model\\Product.cs",
-              "ViewState": "AgIAABsAAAAAAAAAAAAYwBQAAAAjAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-06T22:55:06.215Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-07-06T21:47:28.345Z"
             }
           ]
         },
