@@ -1,6 +1,10 @@
 ﻿using Ecommerce.Controller;
-using Ecommerce.Model;
 using Ecommerce.Services;
+using Ecommerce.Services.Interfaces;
+using Ecommerce.View;
+using Ecommerce.View.Interfaces;
+using Microsoft.Extensions.DependencyInjection;
+
 
 namespace Ecommerce
 {
@@ -8,39 +12,26 @@ namespace Ecommerce
     {
         static void Main(string[] args)
         {
+            // Register services and views
+            var services = new ServiceCollection();
+            services.AddSingleton<IProductService, ProductService>();
+            services.AddSingleton<IShippingService, ShippingService>();
 
-            
+            services.AddSingleton<IProductView, ProductView>();
+            services.AddSingleton<ICartView, CartView>();
 
-            //// Initialize services and controller objects
-            //var shipService = new ShippingService();
-            //var cartController = new CartController(stock, shipService);
-            //var productController = new ProductController(stock);
-            //var customer = new Customer { Id = 1, Name = "Fatma", Balance = 2000 };
-            //var customerController = new CustomerController();
-            //var cart = new Cart {};
-
+            services.AddScoped<ProductController>();
 
 
-            //// Display all products
-            //productController.ShowAll();
+            var provider = services.BuildServiceProvider();
 
-            //Console.WriteLine();
-
-            //// Display customer details
-            //customerController.details(customer);
-
-            //Console.WriteLine();
-
-            //// Add products to cart
-            //cartController.AddToCart(cart, "Cheese", 2);
-            //cartController.AddToCart(cart, "Biscuits", 1);
-            //cartController.AddToCart(cart, "TV", 1);
-            //cartController.AddToCart(cart, "Scratch Card", 2);
-            //cartController.Checkout(customer, cart);
+            //Display all products
+            var prodController = provider.GetRequiredService<ProductController>();
+            prodController.ShowAll();
+            Console.WriteLine();
 
 
-            //var customer2 = new Customer { Id = 1, Name = "Ahmed", Balance = 2000 };
-            ////var cart2 = new Cart { Id = 2 };
+
 
         }
 

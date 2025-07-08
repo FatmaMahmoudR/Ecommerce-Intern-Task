@@ -1,8 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "yeGdCVAmxg0=",
+  "dgSpecHash": "z5gFQe0vkok=",
   "success": true,
   "projectFilePath": "E:\\GIT\\Fawry-Intern-Task\\Ecommerce\\Ecommerce\\Ecommerce.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Users\\ACS\\.nuget\\packages\\microsoft.extensions.dependencyinjection\\9.0.7\\microsoft.extensions.dependencyinjection.9.0.7.nupkg.sha512",
+    "C:\\Users\\ACS\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\9.0.7\\microsoft.extensions.dependencyinjection.abstractions.9.0.7.nupkg.sha512"
+  ],
   "logs": []
 }
