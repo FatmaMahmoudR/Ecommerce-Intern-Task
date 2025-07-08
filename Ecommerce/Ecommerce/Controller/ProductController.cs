@@ -1,4 +1,6 @@
 ﻿using Ecommerce.Model;
+using Ecommerce.Services.Interfaces;
+using Ecommerce.View.Interfaces;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -9,27 +11,18 @@ namespace Ecommerce.Controller
 {
     internal class ProductController
     {
-        private readonly List<Product> _stock;
+        private readonly IProductService _service;
+        private readonly IProductView _view;
 
-        public ProductController(List<Product> stock)
+        public ProductController(IProductService svc, IProductView view)
         {
-            _stock = stock;
+            _service = svc;
+            _view = view;
         }
 
         public void ShowAll()
         {
-            Console.WriteLine("Available Products:");
-            if (_stock.Count == 0)
-            {
-                Console.WriteLine("No products available");
-                return;
-            }
-            int i = 1;
-            foreach (var product in _stock)
-            {
-                Console.WriteLine($"{i++}: {product.Name}| Price={product.Price}| Stock={product.Quantity}");
-            }
-            Console.WriteLine();
+            _view.DisplayAll(_service.ShowAll());
         }
     }
 }

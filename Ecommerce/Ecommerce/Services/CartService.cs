@@ -8,7 +8,7 @@ using System.Threading.Tasks;
 
 namespace Ecommerce.Services
 {
-    internal class CartService
+    internal class CartService : ICartService
     {
         private readonly IProductService _productService;
         private readonly IShippingService _shippingService;

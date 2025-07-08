@@ -12,6 +12,13 @@ namespace Ecommerce.Model
 
         private string _name;
         private double _balance;
+
+        public Customer(int id, string name, double balance)
+        {
+            Id = id;
+            Name = name;
+            Balance = balance;
+        }
         public string Name
         {
             get => _name;

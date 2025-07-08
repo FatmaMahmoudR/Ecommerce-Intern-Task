@@ -13,3 +13,7 @@ E:\GIT\Fawry-Intern-Task\Ecommerce\Ecommerce\obj\Debug\net8.0\refint\Ecommerce.d
 E:\GIT\Fawry-Intern-Task\Ecommerce\Ecommerce\obj\Debug\net8.0\Ecommerce.pdb
 E:\GIT\Fawry-Intern-Task\Ecommerce\Ecommerce\obj\Debug\net8.0\Ecommerce.genruntimeconfig.cache
 E:\GIT\Fawry-Intern-Task\Ecommerce\Ecommerce\obj\Debug\net8.0\ref\Ecommerce.dll
+E:\GIT\Fawry-Intern-Task\Ecommerce\Ecommerce\bin\Debug\net8.0\Microsoft.Extensions.DependencyInjection.dll
+E:\GIT\Fawry-Intern-Task\Ecommerce\Ecommerce\bin\Debug\net8.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+E:\GIT\Fawry-Intern-Task\Ecommerce\Ecommerce\obj\Debug\net8.0\Ecommerce.csproj.AssemblyReference.cache
+E:\GIT\Fawry-Intern-Task\Ecommerce\Ecommerce\obj\Debug\net8.0\Ecommerce.csproj.Up2Date

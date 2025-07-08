@@ -1,4 +1,5 @@
 ﻿using Ecommerce.Controller;
+using Ecommerce.Model;
 using Ecommerce.Services;
 using Ecommerce.Services.Interfaces;
 using Ecommerce.View;
@@ -16,23 +17,32 @@ namespace Ecommerce
             var services = new ServiceCollection();
             services.AddSingleton<IProductService, ProductService>();
             services.AddSingleton<IShippingService, ShippingService>();
+            services.AddScoped<ICartService, CartService>();
 
             services.AddSingleton<IProductView, ProductView>();
             services.AddSingleton<ICartView, CartView>();
 
             services.AddScoped<ProductController>();
+            services.AddScoped<CartController>();
 
 
             var provider = services.BuildServiceProvider();
 
             //Display all products
-            var prodController = provider.GetRequiredService<ProductController>();
-            prodController.ShowAll();
+            var productController = provider.GetRequiredService<ProductController>();
+            productController.ShowAll();
+            Console.WriteLine();
+
+            // Add products to cart
+            var cartController = provider.GetRequiredService<CartController>();
+            cartController.Add("Cheese", 2);
+            cartController.Add("TV", 100);
             Console.WriteLine();
 
 
-
-
+            // Checkout
+            var customer = new Customer(1, "Ali", 1000);
+            cartController.Checkout(customer);
         }
 
     }
