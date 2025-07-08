@@ -24,14 +24,16 @@ namespace Ecommerce.Services
         {
             var product = _productService.ShowAll().FirstOrDefault(p => p.Name == name);
 
-            if (product == null) return (false, "Product not found");
+            if (product == null) return (false, "[X] Product not found");
 
-            if (qty <= 0) return (false, "Quantity must be positive");
+            if (qty <= 0) return (false, "[X] Quantity must be positive");
 
             if (product is IExpirable exp && exp.IsExpired)
-                return (false, "Product has expired");
+                return (false, $"[X] {product.Name} has expired");
 
-            if (product.Quantity < qty) return (false, "Insufficient stock");
+            if (product.Quantity ==0 ) return (false, $"[X] {product.Name} out of stock");
+
+            if (product.Quantity < qty) return (false, $"[X] only {product.Quantity} in the stock");
 
             product.Quantity -= qty;
 
@@ -45,7 +47,7 @@ namespace Ecommerce.Services
         public (bool, string, double, double, double) Checkout(Customer customer)
         {
             if (!_cart.Products.Any())
-                return (false, "Cart is empty", 0, 0, 0);
+                return (false, "[X] Cart is empty", 0, 0, 0);
 
             var sub    = _cart.Products.Sum(p => p.Price);
 
@@ -56,12 +58,19 @@ namespace Ecommerce.Services
             var total  = sub + fee;
 
             if (total > customer.Balance)
-                return (false, "Insufficient balance", sub, fee, total);
+                return (false, $"[X] low balance: {customer.Balance}$", sub, fee, total);
 
             customer.Balance -= total;
             _cart.Products.Clear();
 
             return (true, "Checkout successful", sub, fee, total);
+        }
+
+
+        public IEnumerable<Product> GetAllProducts()
+        {
+            
+            return _cart.Products;
         }
 
 

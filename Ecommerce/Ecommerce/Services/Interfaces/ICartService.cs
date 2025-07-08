@@ -13,5 +13,9 @@ namespace Ecommerce.Services.Interfaces
 
 
         (bool ok, string msg, double subtotal, double shippingFee, double total) Checkout(Customer customer);
+
+
+        IEnumerable<Product> GetAllProducts();
+
     }
 }

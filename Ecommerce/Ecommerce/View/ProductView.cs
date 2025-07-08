@@ -16,6 +16,7 @@ namespace Ecommerce.View
             int i = 1;
             foreach (var p in products)
                 Console.WriteLine($"{i++}: {p.Name}| Price={p.Price}, Stock={p.Quantity}");
+            Console.WriteLine("-----------------------");
         }
     }
 }
