@@ -1,7 +1,7 @@
-# Ecommerce Console App
+# E-commerce Console App
 
 A simple console-based e-commerce simulation demonstrating a clean MVC structure and SOLID principles in C#.  
-You can list products, add items to your cart, and perform checkout, with model-level validation and dependency injection wiring.
+You can list all products, add items to your cart and perform checkout, with model-level validation and dependency injection.
 
 
 ## Features
